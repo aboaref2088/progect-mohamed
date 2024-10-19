@@ -1,0 +1,32 @@
+#face{
+    height: 600px;
+    background-size: cover; /* لتغطية العنصر بالكامل */
+    background-position: center;
+ }
+ 
+.sliderDiv{
+
+    height: 600px;
+    background-size: cover; /* لتغطية العنصر بالكامل */
+    background-position: center;
+}
+.movie-slider {
+    display: flex; /* استخدام flexbox لعرض العناصر بجوار بعضها */
+    overflow-x: auto; /* السماح بالتمرير الأفقي فقط إذا لزم الأمر */
+    white-space: nowrap; /* منع التفاف العناصر */
+    padding: 10px; /* إضافة بعض الحشو */
+}
+
+.swiper-movie {
+    flex: 0 0 auto; /* تأكد من أن كل عنصر يحتفظ بعرضه */
+    margin-right: 10px; /* إضافة بعض المسافة بين السلايدات */
+    width: 200px; /* عرض ثابت لكل سلايد */
+    /* يمكنك تغيير العرض حسب احتياجاتك */
+}
+
+.movieimg {
+    width: 100%; /* لتغطية العنصر بالكامل */
+    height: auto; /* للحفاظ على نسبة العرض إلى الارتفاع */
+    border-radius: 5px; /* إضافة بعض الزوايا الدائرية */
+}
+/* شات جي بي تي  */
